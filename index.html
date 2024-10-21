@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My  Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logooo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <br><span>Mohammad Oubair <br>Shareef</span> And I am a<br> <span id="element"></span><br></h1>
+           
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="images/developer2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me<br> </h1>
+                <br>
+                <p>I am an undergraduate student pursuing B.Tech in Electrical and Electronics Engineering from BVRIT, Narsapur. I have a strong interest in programming and have developed technical skills in Java with Data Structures and Algorithms, along with solid problem-solving abilities.
+
+                    I actively participate in competitive programming on platforms like <a href="https://www.codechef.com/users/oubair08">CodeChef</a> and <a href="https://leetcode.com/u/oubair/">Leetcode</a> where I have achieved good ratings. I am always eager to learn new skills to continuously improve my knowledge base.
+                    
+                    In addition to Java, I also  have interest web development, having learned HTML, CSS, and JavaScript. My passion for the IT field drives me toward a career in software development, where I hope to contribute to an organization through my skills and knowledge.</p>
+                    
+                   <p>  If you'd like to connect with me, feel free to reach out on <a href="https://www.linkedin.com/in/mohammad-oubair-shareef-881706251"> LinkedIn </a>  through the link provided.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java</span><br>Data Structures and Algorithms</li>
+                        <li><span>Web Development</span><br>Html,Css,Javascript</li>
+                        <li><span>Programming languages</span><br>C,Java </li>
+                        <li><span>Soft Skills</span><br> Communication | Team Player | Passionate | Self-motivated  | Problem Solving Skills</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>September-November 2023</span><br>Android Developer Virtual Internship by EduSkills</li>
+                        <li><span>June-July 2023</span><br>Artificial Intelligence Internship  by Edunet Foundation</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025</span><br>B.Tech in Electrical and Electronics Engineering,BVRIT,Narsapur,CGPA:8.82</li>
+                        <li><span>2021 </span><br>Intermediate from Narayana Junior College,Madinaguda,Hyderabad</li>
+                        <li><span>2019</span><br>SSC from St.Peter's High School,CGPA:9.7  </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Smart Coder</h2>
+                <p>I  completed a Data Structures and Algorithms course from Smart Interviews, earning a global rank of 16,199 and certified as a Smart Coder</p>
+                <a href="https://smartinterviews.in/certificate/35df9192"><b>Link </b></a>
+            </div>
+            <div>
+                
+                <i class="fab fa-app-store"></i>
+                <h2> Android Developer</h2>
+                <p>I completed an Android Development <br> course where I learned Kotlin, built basic app interfaces, and created projects like a Dice Roll interface, which gave me practical experience in how real  apps are developed.</p>
+                <a href="https://drive.google.com/file/d/1UrH_nmXE9yabBTjGOK4fjaX3UxzaliHt/view"><b>Link </b></a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Naukri Campus Young Turks</h2>
+                <p>I scored 99.56% in India's largest skill contest conducted by Naukri Campus, where I successfully showcased my coding skills. </p>
+                <a href="https://drive.google.com/file/d/1UU723Snj313OxYvxasBbJ60PYyQ_lCjN/view?usp=sharing" target="_blank"><b>Link </b> </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/projectt.png">
+                <div class="layer">
+                    <h3> Electrical Appliance Control Using Android Technology</h3>
+                    <p>In this project Electrical Appliances are controlled remotely and have implemented feautures  such as real-time status monitoring and energy usage statistics with help of software and hardware components</p>
+                    <a href="https://drive.google.com/file/d/13PijCDPhwLtjACJLR7m5duc2ZmhmHPCx/view?usp=sharing"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/website-development.jpg">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p>The website you are currently using is one of my projects, developed using HTML, CSS, and JS. I created this website as part of my journey in learning front-end development.I gained valuable insights into designing a professional website and making it responsive across different devices </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/bookn.png">
+                <div class="layer">
+                    <h3>Online Book Store</h3>
+                    <p>I have built an online bookstore website using HTML and CSS which allowed me to apply my skills in front-end development to create a functional and visually appealing platform.I learned how to structure a user-friendly interface, design a responsive layout, and enhance the overall user experience</p>
+                    <a href="https://oubair777.github.io/bookstore/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> oubairshareef7860@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 7075097867</p>
+                <div class="social-icons">
+                    <a href="https://mail.google.com/mail/u/1/?fs=1&to=21211a0276@bvrit.ac.in&tf=cm"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/oubair777"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="https://www.instagram.com/oubair._.89/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammad-oubair-shareef-881706251"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1CdL-YFg4xMj_UC4ZyIG41_9oRHjs9p6K/view?usp=sharing" download class="btn btn2">My Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Developed by Mohammad Oubair Shareef  <i class="fa-regular fa-copyright"></i> 2024</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwW_1R6rTyhYKHFyKwKyOTShIhJ0TnAysX-KsmJjZfArJE512jowIqwSS_cQdjgf7T-qw/exec' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Student </i> ', ' Upcoming Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</body>
+</html>
