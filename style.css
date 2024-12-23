@@ -359,14 +359,16 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/mypic-6.jpeg);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 50%;
         font-size: 16px;
-    }
+        margin-right: 50%;
+
+ }
     .header-text h1{
-        font-size: 30px;
+        font-size: 15px;
     }
     nav .fas{
         display: block;
@@ -390,7 +392,7 @@ nav .fas{
     nav ul .fas{
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 5px;
         cursor: pointer;
     }
     .sub-title{
